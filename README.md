@@ -1,6 +1,6 @@
 # Desafio do Decodificador
 
-## Desafio final da segunda fase do curso ONE - Oracle Next Education com parceria da Alura.
+## Desafio final do curso ONE - Oracle Next Education com parceria da Alura.
 
 
 ### Features:
