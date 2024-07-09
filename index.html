@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografe e descriptografe textos</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <img class="container__imagem" id="imagem" src="images/1.PNG" alt="Imagem sem texto">
+        <div class="textos">
+            <textarea class="textos__input" id="input-texto" placeholder="Digite seu texto..."></textarea>
+            <textarea class="textos__output" id="output-texto"></textarea>
+        </div>
+        <div class="botoes">
+            <button class="botoes__cripto" onclick="criptografarTexto()">Criptografar</button>
+            <button class="botoes__descripto" onclick="descriptografarTexto()">Descriptografar</button>
+            <div class="botoes__condicao">
+                <button class="botoes__condicao__copiar" id="copiar-texto" onclick="copiarTexto()">Copiar</button>
+            </div>
+    </div>
+
+    <div></div>
+    <script src="cripto.js"></script>
+    <footer class="creditos">
+        <h6 class="madeby">Made by </h6>
+        <img src="images/github.png" class="githublogo" alt="GitHub Logo">
+        <a href="https://github.com/szpeeKi" class="peeKi">/peeKi</a>
+    </footer>
+</body>
+</html>
