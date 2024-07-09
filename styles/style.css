@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --cor-preta: black;
+    --cor-branca: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--cor-branca);
+    overflow: hidden;
+    place-items: center;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container__imagem{
+    width: 336px;
+    height: 758px;
+    position: absolute;
+    z-index: 2;
+    left: 73%;
+    top: 12%;
+}
+
+.textos{
+    display: flex;
+    position: absolute;
+    z-index: 0;
+    top: 10%;
+    left: 20%;
+    gap: 200px;
+
+}
+
+.textos__input{
+    width: 700px;
+    height: 700px; 
+    color: #0A3871; 
+    outline: none;
+    border: none;
+    font-size: 32px;
+    font-family: "Inter",sans-serif;
+
+}
+
+.textos__output{
+    width: 500px;
+    height: 790px; 
+    color: #0A3871;
+    font-size: large;
+    outline: none;
+    border: none;
+    font-size: 24px;
+    font-family: "Inter",sans-serif;
+}
+
+
+.botoes{
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    gap: 40px;
+}
+
+.botoes__cripto{
+    width: 20.5rem;
+    height: 4.188rem; 
+    background-color: var(--cor-preta); 
+    color: var(--cor-branca); 
+    border-radius: 1rem;
+}
+
+.botoes__cripto:hover{
+    background-color: var(--cor-preta);
+    opacity: 80%;
+    border: 0,0625rem solid;
+}
+
+.botoes__descripto{
+    width: 20.5rem;
+    height: 4.188rem; 
+    background-color: var(--cor-preta);
+    color: var(--cor-branca);
+    border-radius: 1rem;
+}
+
+.botoes__descripto:hover{
+    background-color: var(--cor-preta);
+    opacity: 80%;
+    border: 0,0625rem solid;
+}
+
+.botoes__condicao__copiar
+{
+  width: 20.5rem;
+  height: 4.188rem; 
+  font-size: 1.25rem;
+  color: var(--cor-branca);
+  background-color: var(--cor-preta);
+  border-radius: 1rem;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.botoes__condicao__copiar:hover{    
+    background-color: var(--cor-preta);
+    opacity: 80%;
+    border: 0,0625rem solid;
+}
+
+.creditos 
+{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 95%;
+  gap: 0.3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.madeby 
+{
+  background-color: transparent;
+  text-decoration: none;
+  color: var(--cor-preta);
+  font-family: "Inter",sans-serif;
+  font-weight: bold;
+}
+
+.peeKi
+{
+  background-color: transparent;
+  text-decoration: none;
+  color: #0A3871;
+  font-family: "Inter",sans-serif;
+  font-weight: bold;
+}
+
+.githublogo 
+{
+  height: 2rem;
+  width: 2rem;
+}
