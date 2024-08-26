@@ -9,7 +9,6 @@
 - Toda letra maiúscula será convertida para letra minúscula;
 - Há 3 botões: "Criptografar", "Descriptograr" e "Copiar".
 - Usar o botão Criptografar ou o Descriptograr caso não haja texto escrito acontecera nada.
-- Footer com meus créditos com um link que redireciona para meu GitHub (este aqui).
 
 
 #
